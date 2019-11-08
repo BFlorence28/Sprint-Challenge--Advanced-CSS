@@ -1,1 +1,31 @@
 // Mixins Here
+
+// .custom-btn(@bg-color:@btn-bg-color) {
+//     background-color: @bg-color;
+// }
+
+.custom-btn(@width: 200px, @padding: 5%) {
+    background-color: @btn-bg-color;
+    border-radius: 10px;
+    width: @width;
+    padding: @padding;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+
+
+&:hover {
+    background-color:skyblue;
+    color: @btn-bg-color;
+}
+}
+
+
+
+  //   .button-template(@eastern-blue:@button-bg,) {
+  //     border-radius: 20px;
+  //     padding: 25px;
+  //     font-size: 2rem;
+  //     background-color: @eastern-blue;
+  //     color: white;
+  // }
